@@ -19,7 +19,41 @@ body .imgbox img {
   font-size: 24px;
 }
 #carefor .imgbox {
-  width: 500px;
+  width: 400px;
+}
+@media (max-width: 992px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+  #carefor .textbox h1 {
+    font-size: 50px;
+  }
+  #carefor .textbox h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #carefor .textbox {
+    padding-bottom: 70px;
+  }
+  #carefor .textbox h1 {
+    font-size: 35px;
+  }
+  #carefor .imgbox {
+    width: 300px;
+  }
+}
+@media (max-width: 430px) {
+  #carefor .textbox {
+    text-align: center;
+    margin: 0 50px 0;
+  }
+  #carefor .textbox h1 {
+    font-size: 30px;
+  }
+  #carefor .imgbox {
+    width: 250px;
+  }
 }
 
 #welcome {
@@ -54,6 +88,35 @@ body .imgbox img {
 }
 #welcome .textbox .wid {
   width: 580px;
+}
+@media (max-width: 992px) {
+  #welcome .textbox {
+    margin: 0;
+    padding: 20px 0;
+  }
+  #welcome .imgbox {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  #welcome .textbox {
+    margin: auto;
+  }
+}
+@media (max-width: 430px) {
+  #welcome .textbox {
+    text-align: center;
+    margin: 20px 40px;
+  }
+  #welcome .textbox h1 {
+    font-size: 25px;
+  }
+  #welcome .textbox h2 {
+    font-size: 25px;
+  }
+  #welcome .imgbox {
+    width: 370px;
+  }
 }
 
 #aboutus {
@@ -92,6 +155,11 @@ body .imgbox img {
 }
 #aboutus .imgbox {
   width: 450px;
+}
+@media (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0 0 50px;
+  }
 }
 
 #ourtrainers {
@@ -136,6 +204,11 @@ body .imgbox img {
 }
 #ourtrainers .wid {
   width: 580px;
+}
+@media (max-width: 768px) {
+  #ourtrainers .imgbox {
+    padding-top: 40px;
+  }
 }
 
 #pricingtable {
@@ -191,6 +264,11 @@ body .imgbox img {
 #pricingtable .PREMIUM-color .btn {
   background-color: #708f97;
 }
+@media (max-width: 768px) {
+  #pricingtable .box {
+    margin-bottom: 40px;
+  }
+}
 
 #questions {
   padding: 40px 0;
@@ -240,6 +318,27 @@ body .imgbox img {
 #questions .bigicon i {
   font-size: 30px;
 }
+@media (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
+  #questions .imgbox {
+    width: 450px;
+  }
+}
+@media (max-width: 768px) {
+  #questions .textbox {
+    margin-bottom: 50px;
+  }
+  #questions .imgbox {
+    width: 530px;
+  }
+}
+@media (max-width: 430px) {
+  #questions .imgbox {
+    width: 435px;
+  }
+}
 
 #doggerblog {
   padding: 40px 0;
@@ -275,6 +374,22 @@ body .imgbox img {
 #doggerblog .wid {
   width: 580px;
 }
+@media (max-width: 992px) {
+  #doggerblog .textbox {
+    text-align: center;
+  }
+  #doggerblog .imgbox {
+    width: 500%;
+  }
+  #doggerblog .box {
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  #doggerblog .imgbox {
+    width: 450px;
+  }
+}
 
 #ourservices {
   padding: 40px 0;
@@ -304,4 +419,14 @@ body .imgbox img {
 }
 #ourservices .textbox .icon {
   font-size: 60px;
+}
+@media (max-width: 992px) {
+  #ourservices .textbox {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #ourservices .textbox {
+    padding: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

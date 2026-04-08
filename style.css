@@ -161,6 +161,11 @@ body .imgbox img {
     padding: 0 0 50px;
   }
 }
+@media (max-width: 440px) {
+  #aboutus .imgbox {
+    width: auto;
+  }
+}
 
 #ourtrainers {
   padding: 40px 0;
@@ -323,20 +328,12 @@ body .imgbox img {
     padding: 0;
   }
   #questions .imgbox {
-    width: 450px;
+    width: auto;
   }
 }
 @media (max-width: 768px) {
   #questions .textbox {
     margin-bottom: 50px;
-  }
-  #questions .imgbox {
-    width: 530px;
-  }
-}
-@media (max-width: 430px) {
-  #questions .imgbox {
-    width: 435px;
   }
 }
 
